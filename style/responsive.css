@@ -1,0 +1,266 @@
+/* ===========================================
+        MOBILE DEVICE RESPONSIVE START 
+=========================================== */
+@media (min-width:0px) and (max-width: 575.98px) {
+    
+    
+    /* NAV BAR PART START  */
+    nav{
+        padding: 15px 0;
+    }
+    nav .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    nav .container .logo{
+        display: flex;
+        gap: 3px;
+        margin-bottom: 15px;
+    }
+    nav .container .logo p{
+        font-size: 2rem;
+    }
+    nav .container .item{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav .container .item ul{
+        padding: 0px;
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav .container .item ul li a{
+        font-size: 1.6rem;
+    }
+    nav .container .item  button{
+        font-size: 1.2rem;
+        padding: 5px;
+        gap: 10px;
+    }
+    nav .container .item  button i{
+        font-size: 1.2rem;
+    }
+    /* NAV BAR PART END  */
+
+
+    /* BANNER PART START  */
+    /* BANNER PART END */
+
+
+}
+/* ===========================================
+        MOBILE DEVICE RESPONSIVE END 
+=========================================== */
+
+
+/* ===========================================
+        TABLET DEVICE RESPONSIVE START 
+=========================================== */
+@media (min-width:576px) and (max-width: 767.98px) {
+    
+    
+    /* NAV BAR PART START  */
+    nav{
+        padding: 15px 0;
+    }
+    nav .container{
+        width: 100%;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    nav .container .logo{
+        display: flex;
+        gap: 8px;
+        margin-bottom: 15px;
+    }
+    nav .container .logo p{
+        font-size: 2rem;
+    }
+    nav .container .item{
+        gap: 20px;
+    }
+    nav .container .item ul{
+        padding:0px;
+        gap: 20px;
+    }
+    nav .container .item ul li a{
+        font-size: 1.5rem;
+    }
+    nav .container .item  button{
+        font-size: 1.5rem;
+        padding: 10px 5px;
+        gap: 8px;
+    }
+    nav .container .item  button i{
+        font-size: 1.2rem;
+    }
+    /* NAV BAR PART END  */
+
+    
+    /* BANNER PART START  */
+    /* BANNER PART END */
+
+
+}
+/* ===========================================
+        TABLET DEVICE RESPONSIVE END 
+=========================================== */
+
+
+/* ===========================================
+        MINI LAPTOP DEVICE RESPONSIVE START 
+=========================================== */
+@media (min-width:768px) and (max-width: 991.88px) {
+    
+    
+    
+    /* NAV BAR PART START  */
+    nav{
+        padding: 15px 0;
+    }
+    nav .container{
+        width: 100%;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    nav .container .logo{
+        display: flex;
+        gap: 8px;
+        margin-bottom: 15px;
+    }
+    nav .container .logo p{
+        font-size: 2rem;
+    }
+    nav .container .item{
+        gap: 20px;
+    }
+    nav .container .item ul{
+        padding:0px;
+        gap: 20px;
+    }
+    nav .container .item ul li a{
+        font-size: 1.5rem;
+    }
+    nav .container .item  button{
+        font-size: 1.5rem;
+        padding: 10px 5px;
+        gap: 8px;
+    }
+    nav .container .item  button i{
+        font-size: 1.2rem;
+    }
+    /* NAV BAR PART END  */
+
+    
+    /* BANNER PART START  */
+    /* BANNER PART END */
+
+
+}
+/* ===========================================
+        MINI LAPTOP DEVICE RESPONSIVE END 
+=========================================== */
+
+
+/* ===========================================
+        MEDIUM LAPTOP DEVICE RESPONSIVE START 
+=========================================== */
+@media (min-width:992PX) and (max-width: 1199.88px) {
+    
+    
+    /* NAV BAR PART START  */
+    nav{
+        padding: 15px 0;
+    }
+    nav .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    nav .container .logo{
+        display: flex;
+        gap: 5px;
+    }
+    nav .container .logo p{
+        font-size: 2rem;
+    }
+    nav .container .item{
+        gap: 20px;
+    }
+    nav .container .item ul{
+        gap: 20px;
+    }
+    nav .container .item ul li a{
+        font-size: 1.6rem;
+    }
+    nav .container .item  button{
+        font-size: 1.5rem;
+        padding: 10px 15px;
+        gap: 10px;
+    }
+    nav .container .item  button i{
+        font-size: 1.2rem;
+    }
+    /* NAV BAR PART END  */
+
+    
+    /* BANNER PART START  */
+    /* BANNER PART END */
+
+
+}
+/* ===========================================
+        MEDIUM LAPTOP DEVICE RESPONSIVE END 
+=========================================== */
+
+
+
+/* ===========================================
+        LARGE DEVICE RESPONSIVE START 
+=========================================== */
+@media (min-width:1200px) and (max-width: 1639.88px) {
+    
+    
+    /* NAV BAR PART START  */
+    nav{
+        padding: 15px 0;
+    }
+    nav .container{
+        width: 100%;
+        padding: 0 30px;
+    }
+    nav .container .logo{
+        display: flex;
+        gap: 5px;
+    }
+    nav .container .logo p{
+        font-size: 2rem;
+    }
+    nav .container .item{
+        gap: 35px;
+    }
+    nav .container .item ul{
+        gap: 35px;
+    }
+    nav .container .item ul li a{
+        font-size: 1.6rem;
+    }
+    nav .container .item  button{
+        font-size: 1.5rem;
+        padding: 10px 25px;
+        gap: 20px;
+    }
+    nav .container .item  button i{
+        font-size: 1.2rem;
+    }
+    /* NAV BAR PART END  */
+
+    
+    /* BANNER PART START  */
+    /* BANNER PART END */
+
+
+}
+/* ===========================================
+        LARGE  DEVICE RESPONSIVE END 
+=========================================== */

@@ -2,15 +2,17 @@
         ALL COMMON CSS PART START 
 ======================================== */
 :root{
-    --PRIMATY-COLOR: #FF42A5;
-    --HEDDING-BLACK: #0B0223;
+    --PRIMARY-COLOR: #FF42A5;
+    --HEADING-BLACK: #0B0223;
     --WHITE-COLOR: #fff;
     --BACKGROUND-COLOR: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     --TEXT-COLOR: #534C64;
     --FONT-FAMILY: 'Work Sans', sans-serif;
+    --RED-COLOR: Red;
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
 }
 *{
     margin: 0;
@@ -26,6 +28,7 @@ img{
 .container{
     width: 1680px;
     margin: 0 auto;
+    /* background: red; */
 }
 ul, ol, li{
     list-style: none;
@@ -44,10 +47,122 @@ a, a:hover{
 
 
 /* ========================================
-        ALL COMMON CSS PART START 
+        NAV BAR  CSS PART START 
 ======================================== */
+nav{
+    background-color: var(--WHITE-COLOR);
+    padding: 35px 0;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container .logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+nav .container .logo p{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--HEADING-BLACK);
+}
+nav .container .logo p span{
+    /* color: #F948B2; */
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav .container .item{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+nav .container .item ul{
+    display: flex;
+    gap: 50px;
+}
+nav .container .item ul li a{
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--HEADING-BLACK);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+nav .container .item ul li:hover a{
+    color: var(--PRIMARY-COLOR);
+}
+nav .container .item button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    gap: 25px;
+    padding: 20px 25px ;
+    border-radius: 8px;
+    color: var(--HEADING-BLACK);
+    background: rgba(11, 2, 35, 0.10);
+    border: 1px solid rgba(11, 2, 35, 0.10);
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+nav .container .item button:hover{
+    color: var(--PRIMARY-COLOR);
+    border: 1px solid var(--PRIMARY-COLOR);
+}
+nav .container .item button .social .youtube{
+    color: var(--RED-COLOR);
+    border: 1px solid rgba(11, 2, 35, 0.10);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+nav .container .item button .social .youtube:hover{
+    border: 1px solid var(--PRIMARY-COLOR);
+}
+nav .container .item button .social .tiktok{
+    color: var(--HEADING-BLACK);
+    border: 1px solid rgba(11, 2, 35, 0.10);
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .container .item button .social .tiktok:hover{
+    border: 1px solid var(--PRIMARY-COLOR);
+}
+
 /* ========================================
-        ALL COMMON CSS PART END 
+        NAV BAR  CSS PART END 
 ======================================== */
 
 
