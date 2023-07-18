@@ -1,8 +1,20 @@
 /* ===========================================
         MOBILE DEVICE RESPONSIVE START 
 =========================================== */
-@media (min-width:0px) and (max-width: 575.98px) {
-    
+@media (min-width:0px) and (max-width: 576px) {
+    /* COMMON BUTTON PART START */
+    .commonbtn{
+        padding: 5px 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .commonbtn a{
+        font-size: 1rem;
+    }
+    /* COMMON BUTTON PART START */
     
     /* NAV BAR PART START  */
     nav{
@@ -45,6 +57,36 @@
 
 
     /* BANNER PART START  */
+    #banner .container{
+        width: 100%;
+        gap: 50px;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    #banner .container .text{
+        padding: 0px 20px;
+    }
+    #banner .container .text h3{
+        font-size: 1.9rem;
+    }
+    #banner .container .text h1{
+        font-size: 4rem;
+    }
+    #banner .container .text ul li .icon{
+        margin-bottom: 7px;
+        padding: 0px 10px;
+    }
+    #banner .container .text ul li .icon i{
+        height: 25px;
+        width: 25px;
+    }
+    #banner .container .text ul li .icon span{
+        font-size: .75rem;
+    }
+    #banner .container .text .btn{
+        gap: 30px;
+        margin-top: 30px;
+    }
     /* BANNER PART END */
 
 
@@ -57,9 +99,22 @@
 /* ===========================================
         TABLET DEVICE RESPONSIVE START 
 =========================================== */
-@media (min-width:576px) and (max-width: 767.98px) {
-    
-    
+@media (min-width:576.1px) and (max-width: 768px) {
+
+    /* COMMON BUTTON PART START */
+    .commonbtn{
+        padding: 10px 20px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    .commonbtn a{
+        font-size: 1.5rem;
+    }
+    /* COMMON BUTTON PART START */
+
     /* NAV BAR PART START  */
     nav{
         padding: 15px 0;
@@ -99,6 +154,36 @@
 
     
     /* BANNER PART START  */
+        #banner .container{
+            width: 100%;
+            gap: 50px;
+            flex-direction: column-reverse;
+            margin-top: 50px;
+        }
+        #banner .container .text{
+            padding: 0px 20px;
+        }
+        #banner .container .text h3{
+            font-size: 2.5rem;
+        }
+        #banner .container .text h1{
+            font-size: 5rem;
+        }
+        #banner .container .text ul li .icon{
+            margin-bottom: 10px;
+            padding: 0px 10px;
+        }
+        #banner .container .text ul li .icon i{
+            height: 25px;
+            width: 25px;
+        }
+        #banner .container .text ul li .icon span{
+            font-size: 1rem;
+        }
+        #banner .container .text .btn{
+            gap: 30px;
+            margin-top: 30px;
+        }
     /* BANNER PART END */
 
 
@@ -111,8 +196,20 @@
 /* ===========================================
         MINI LAPTOP DEVICE RESPONSIVE START 
 =========================================== */
-@media (min-width:768px) and (max-width: 991.88px) {
-    
+@media (min-width:768.1px) and (max-width: 991.88px) {
+    /* COMMON BUTTON PART START */
+    .commonbtn{
+        padding: 7px 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+    .commonbtn a{
+        font-size: 1.3rem;
+    }
+    /* COMMON BUTTON PART START */
     
     
     /* NAV BAR PART START  */
@@ -154,6 +251,34 @@
 
     
     /* BANNER PART START  */
+    #banner .container{
+        width: 100%;
+        gap: 30px;
+    }
+    #banner .container .text{
+        padding: 0px 20px;
+    }
+    #banner .container .text h3{
+        font-size: 2.5rem;
+    }
+    #banner .container .text h1{
+        font-size: 5rem;
+    }
+    #banner .container .text ul li .icon{
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    #banner .container .text ul li .icon i{
+        height: 20px;
+        width: 20px;
+    }
+    #banner .container .text ul li .icon span{
+        font-size: 1rem;
+    }
+    #banner .container .text .btn{
+        gap: 30px;
+        margin-top: 30px;
+    }
     /* BANNER PART END */
 
 
@@ -167,7 +292,19 @@
         MEDIUM LAPTOP DEVICE RESPONSIVE START 
 =========================================== */
 @media (min-width:992PX) and (max-width: 1199.88px) {
-    
+    /* COMMON BUTTON PART START */
+    .commonbtn{
+        padding: 7px 15px;
+        border-radius: 7px;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        -o-border-radius: 7px;
+    }
+    .commonbtn a{
+        font-size: 1.3rem;
+    }
+    /* COMMON BUTTON PART START */  
     
     /* NAV BAR PART START  */
     nav{
@@ -205,6 +342,35 @@
 
     
     /* BANNER PART START  */
+    #banner .container{
+        width: 100%;
+        gap: 60px;
+        justify-content: space-between;
+    }
+    #banner .container .text{
+        padding: 0px 20px;
+    }
+    #banner .container .text h3{
+        font-size: 2.5rem;
+    }
+    #banner .container .text h1{
+        font-size: 5rem;
+    }
+    #banner .container .text ul li .icon{
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    #banner .container .text ul li .icon i{
+        height: 20px;
+        width: 20px;
+    }
+    #banner .container .text ul li .icon span{
+        font-size: 1rem;
+    }
+    #banner .container .text .btn{
+        gap: 30px;
+        margin-top: 30px;
+    }
     /* BANNER PART END */
 
 
@@ -219,8 +385,21 @@
         LARGE DEVICE RESPONSIVE START 
 =========================================== */
 @media (min-width:1200px) and (max-width: 1639.88px) {
-    
-    
+
+    /* COMMON BUTTON PART START */
+    .commonbtn{
+        padding: 20px 27px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+}
+    .commonbtn a{
+        font-size: 1.6rem;
+    }
+    /* COMMON BUTTON PART START */  
+
     /* NAV BAR PART START  */
     nav{
         padding: 15px 0;
@@ -255,10 +434,37 @@
     }
     /* NAV BAR PART END  */
 
-    
     /* BANNER PART START  */
+    #banner .container{
+        width: 100%;
+        gap: 60px;
+        justify-content: space-between;
+    }
+    #banner .container .text{
+        padding: 0px 20px;
+    }
+    #banner .container .text h3{
+        font-size: 3rem;
+    }
+    #banner .container .text h1{
+        font-size: 6rem;
+    }
+    #banner .container .text ul li .icon{
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    #banner .container .text ul li .icon i{
+        height: 25px;
+        width: 25px;
+    }
+    #banner .container .text ul li .icon span{
+        font-size: 1.4rem;
+    }
+    #banner .container .text .btn{
+        gap: 30px;
+        margin-top: 30px;
+    }
     /* BANNER PART END */
-
 
 }
 /* ===========================================

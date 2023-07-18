@@ -9,6 +9,7 @@
     --TEXT-COLOR: #534C64;
     --FONT-FAMILY: 'Work Sans', sans-serif;
     --RED-COLOR: Red;
+    --BUTTON-COLOR: #4EC5F7;
 }
 body{
     font-family: 'Work Sans', sans-serif;
@@ -26,8 +27,9 @@ img{
     vertical-align: middle;
 }
 .container{
-    width: 1680px;
+    width: 1640px;
     margin: 0 auto;
+    padding: 0px 10px;
     /* background: red; */
 }
 ul, ol, li{
@@ -38,6 +40,38 @@ ul, ol, li{
 a, a:hover{
     text-decoration: none;
 }
+/* COMMON BUTTON PART START */
+.commonbtn{
+    background: var(--PRIMARY-COLOR);
+    padding: 20px 40px;
+    border-radius: 48px;
+    cursor: pointer;
+    border: 2px solid var(--PRIMARY-COLOR);
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.commonbtn:hover{
+    background: var(--BUTTON-COLOR);
+    border: 2px solid var(--PRIMARY-COLOR);
+}
+.commonbtn a{
+    color: var(--WHITE-COLOR);
+    font-size: 1.5rem;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.commonbtn:hover a{
+    color: var(--PRIMARY-COLOR);
+}
+/* COMMON BUTTON PART START */
+
 /* ========================================
         ALL COMMON CSS PART END 
 ======================================== */
@@ -169,10 +203,68 @@ nav .container .item button .social .tiktok:hover{
 
 
 /* ========================================
-        ALL COMMON CSS PART START 
+        BANNER CSS PART START 
 ======================================== */
+#banner{
+    /* background-color: red; */
+}
+#banner .container{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .container .text{
+    background-image: url(../images/banner01.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+}
+#banner .container .text h3{
+    color: var(--HEADING-BLACK);
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+#banner .container .text h1{
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    background: var(--BACKGROUND-COLOR);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
+}
+#banner .container .text ul li .icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+#banner .container .text ul li .icon i{
+    height: 25px;
+    width: 25px;
+    color: var(--PRIMARY-COLOR);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .container .text ul li .icon span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--TEXT-COLOR);
+}
+#banner .container .text .btn{
+    display: flex;
+    gap: 60px;
+    margin-top: 60px;
+}
 /* ========================================
-        ALL COMMON CSS PART END 
+        BANNER CSS PART END 
 ======================================== */
 
 
