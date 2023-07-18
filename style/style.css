@@ -70,6 +70,20 @@ a, a:hover{
 .commonbtn:hover a{
     color: var(--PRIMARY-COLOR);
 }
+h2{
+    background: var(--BACKGROUND-COLOR);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+p{
+    color: var(--TEXT-COLOR);
+    font-size: 1.2rem;
+    line-height: 30px;
+}
 /* COMMON BUTTON PART START */
 
 /* ========================================
@@ -95,7 +109,11 @@ nav .container{
 nav .container .logo{
     display: flex;
     align-items: center;
+    justify-content: start;
     gap: 8px;
+}
+nav .container .logo img{
+    width: 70px;
 }
 nav .container .logo p{
     font-size: 3rem;
@@ -206,7 +224,7 @@ nav .container .item button .social .tiktok:hover{
         BANNER CSS PART START 
 ======================================== */
 #banner{
-    /* background-color: red; */
+    margin-bottom: 55px;
 }
 #banner .container{
     display: flex;
@@ -271,10 +289,33 @@ nav .container .item button .social .tiktok:hover{
 
 
 /* ========================================
-        ALL COMMON CSS PART START 
+        GAMER CSS PART START 
 ======================================== */
+
+#gamer{
+    margin-bottom: 100px;
+}
+#gamer .container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    text-align: end;
+}
+#gamer .container .text{
+    padding: 10px 20px;
+    max-width: 550px;
+}
+#gamer .container .text p{
+    margin-bottom: 40px;
+}
+#gamer .container .text .quation{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
 /* ========================================
-        ALL COMMON CSS PART END 
+        GAMER CSS PART END 
 ======================================== */
 
 
