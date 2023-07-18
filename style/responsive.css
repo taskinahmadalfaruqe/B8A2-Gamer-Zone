@@ -121,6 +121,45 @@
     }
     /* GAMER PART END */
 
+    /* ONLINE GAME PART START */
+    #online{
+        margin-bottom: 50px;
+    }
+    #online .container{
+        padding: 0 10px;
+        width: 100%;
+    }
+    #online .container .heading{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #online .container .heading h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 1.5rem;
+    }
+    #online .container .game_items{
+        gap: 25px;
+        flex-direction: column;
+    }
+    #online .container .game_items .games{
+        width: 300px;
+        height: auto;
+    }
+    #online .container .game_items .games .image .overlay i{
+        font-size: 40px;
+    }
+    #online .container .game_items .games .image .overlay p{
+        font-size: 1.2rem;
+    }
+    #online .container .game_items .games .game-caption{
+        margin-top: 8px;
+    }
+    #online .container .game_items .games .game-caption p{
+        font-size: 1rem;
+    }
+    /* ONLINE GAME PART EMD */
+
 
 }
 /* ===========================================
@@ -248,6 +287,45 @@
     }
     /* GAMER PART END */
 
+    /* ONLINE GAME PART START */
+    #online{
+        margin-bottom: 50px;
+    }
+    #online .container{
+        padding: 0 10px;
+        width: 100%;
+    }
+    #online .container .heading{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #online .container .heading h2{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 2rem;
+    }
+    #online .container .game_items{
+        gap: 25px;
+        flex-direction: column;
+    }
+    #online .container .game_items .games{
+        width: 350px;
+        height: auto;
+    }
+    #online .container .game_items .games .image .overlay i{
+        font-size: 40px;
+    }
+    #online .container .game_items .games .image .overlay p{
+        font-size: 1.2rem;
+    }
+    #online .container .game_items .games .game-caption{
+        margin-top: 8px;
+    }
+    #online .container .game_items .games .game-caption p{
+        font-size: 1rem;
+    }
+    /* ONLINE GAME PART EMD */
+
 
 }
 /* ===========================================
@@ -373,6 +451,46 @@
     /* GAMER PART END */
 
 
+    /* ONLINE GAME PART START */
+    #online{
+        margin-bottom: 50px;
+    }
+    #online .container{
+        padding: 0 10px;
+        width: 100%;
+    }
+    #online .container .heading{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #online .container .heading h2{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 2rem;
+    }
+    #online .container .game_items{
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #online .container .game_items .games{
+        width: 350px;
+        height: 480px;
+    }
+    #online .container .game_items .games .image .overlay i{
+        font-size: 40px;
+    }
+    #online .container .game_items .games .image .overlay p{
+        font-size: 1.2rem;
+    }
+    #online .container .game_items .games .game-caption{
+        margin-top: 8px;
+    }
+    #online .container .game_items .games .game-caption p{
+        font-size: 1rem;
+    }
+    /* ONLINE GAME PART EMD */
+
 }
 /* ===========================================
         MINI LAPTOP DEVICE RESPONSIVE END 
@@ -473,7 +591,7 @@
         width: 100%;
     }
     #gamer .container .text{
-        padding: 0px 0px;
+        padding: 0px 10px;
     }
     #gamer .container .text p{
         margin-bottom: 15px;
@@ -483,6 +601,46 @@
         margin-top: 20px;
     }
     /* GAMER PART END */
+
+    /* ONLINE GAME PART START */
+    #online{
+        margin-bottom: 50px;
+    }
+    #online .container{
+        padding: 0 10px;
+        width: 100%;
+    }
+    #online .container .heading{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #online .container .heading h2{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 2rem;
+    }
+    #online .container .game_items{
+        gap: 25px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #online .container .game_items .games{
+        width: 350px;
+        height: 480px;
+    }
+    #online .container .game_items .games .image .overlay i{
+        font-size: 40px;
+    }
+    #online .container .game_items .games .image .overlay p{
+        font-size: 1.2rem;
+    }
+    #online .container .game_items .games .game-caption{
+        margin-top: 8px;
+    }
+    #online .container .game_items .games .game-caption p{
+        font-size: 1rem;
+    }
+    /* ONLINE GAME PART EMD */
 
 }
 /* ===========================================
@@ -575,6 +733,65 @@
         margin-top: 30px;
     }
     /* BANNER PART END */
+
+    /* GAMER PART START  */
+    #gamer{
+        margin-bottom: 70px;
+    }
+    #gamer .container{
+        gap: 10px;
+        width: 100%;
+    }
+    #gamer .container .text{
+        padding: 0px 10px;
+    }
+    #gamer .container .text p{
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+    #gamer .container .text .quation{
+        margin-top: 20px;
+    }
+    /* GAMER PART END */
+
+
+    /* ONLINE GAME PART START */
+    #online{
+        margin-bottom: 50px;
+    }
+    #online .container{
+        padding: 0 10px;
+        width: 100%;
+    }
+    #online .container .heading{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #online .container .heading h2{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 2rem;
+    }
+    #online .container .game_items{
+        gap: 25px;
+    }
+    #online .container .game_items .games{
+        width: 350px;
+        height: 480px;
+    }
+    #online .container .game_items .games .image .overlay i{
+        font-size: 40px;
+    }
+    #online .container .game_items .games .image .overlay p{
+        font-size: 1.2rem;
+    }
+    #online .container .game_items .games .game-caption{
+        margin-top: 8px;
+    }
+    #online .container .game_items .games .game-caption p{
+        font-size: 1.2rem;
+    }
+    /* ONLINE GAME PART EMD */
 
 }
 /* ===========================================
