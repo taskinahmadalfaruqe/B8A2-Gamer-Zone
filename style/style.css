@@ -79,6 +79,12 @@ h2{
     font-weight: 700;
     margin-bottom: 20px;
 }
+h2 span{
+    background: var(--HEADING-BLACK);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 p{
     color: var(--TEXT-COLOR);
     font-size: 1.2rem;
@@ -343,14 +349,14 @@ padding: 0 10px;
 #online .container .game_items{
     display: flex;
     gap: 25px;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 #online .container .game_items .games{
     width: 400px;
-    height: 400px;
 }
 #online .container .game_items .games .image{
+    height: 400px;
     position: relative;
     overflow: hidden;
     border: 4px solid var(--WHITE-COLOR);
@@ -420,10 +426,32 @@ padding: 0 10px;
 
 
 /* ========================================
-        ALL COMMON CSS PART START 
+         INSTANTLY CSS PART START 
 ======================================== */
+#instantly{
+    margin-bottom: 120px;
+}
+#instantly .container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+#instantly .container .text{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+#instantly .container .image{
+    position: relative;
+}
+#instantly .container .image .position{
+    position: absolute;
+    left: -20%;
+    top: 55%;
+}
 /* ========================================
-        ALL COMMON CSS PART END 
+         INSTANTLY CSS PART END 
 ======================================== */
 
 
