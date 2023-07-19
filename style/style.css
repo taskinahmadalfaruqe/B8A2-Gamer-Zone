@@ -496,6 +496,88 @@ padding: 0 10px;
 
 
 /* ========================================
+        CAREERS CSS PART START 
+======================================== */
+#Careers{
+    background: var(--PRIMARY-COLOR);
+    padding: 120px 0;
+}
+#Careers .container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#Careers .container .text{
+    text-align: start;
+    max-width: 700px;
+}
+#Careers .container .text h3{
+    font-size: 3rem;
+    color:var(--WHITE-COLOR);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#Careers .container .text p{
+    line-height: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: var(--WHITE-COLOR);
+}
+#Careers .container .text .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+#Careers .container .text .list .list2{
+    text-align: end;
+}
+#Careers .container .text .list ul li{
+    display: block;
+    color: var(--WHITE-COLOR);
+}
+#Careers .container .text button{
+    background: var(--WHITE-COLOR);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#Careers .container .text button:hover{
+    background: var(--BUTTON-COLOR);
+}
+
+#Careers .container .text button a{
+    color: var(--HEADING-BLACK);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#Careers .container .text button:hover a{
+   color: var(--PRIMARY-COLOR);
+}
+#Careers .container .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+/* ========================================
+        CAREERS CSS PART END 
+======================================== */
+
+
+/* ========================================
         LOGO BUTTON CSS PART START 
 ======================================== */
 #logo{
@@ -557,17 +639,6 @@ padding: 0 10px;
 /* ========================================
         LOGO BUTTON CSS PART END 
 ======================================== */
-
-
-
-
-/* ========================================
-        ALL COMMON CSS PART START 
-======================================== */
-/* ========================================
-        ALL COMMON CSS PART END 
-======================================== */
-
 
 
 

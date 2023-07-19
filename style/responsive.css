@@ -229,6 +229,36 @@
     /* PLAY PART END */
 
 
+    /* CAREERS PART START  */
+    #Careers{
+        padding:20px 0;
+    }
+    #Careers .container{
+        gap: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+    #Careers .container .text h3{
+        font-size: 2rem;
+    }
+    #Careers .container .text p{
+        font-size: .8rem;
+    }
+    #Careers .container .text .list{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    #Careers .container .text .list ul li{
+        font-size: .675rem;
+    }
+    #Careers .container .text button{
+        padding: 10px 20px;
+    }
+    /* CAREERS PART END */
+
     /* LOGO BUTTON PART START  */
     #logo{
         padding: 40px 0px;
@@ -554,6 +584,35 @@
     }
     /* PLAY PART END */
 
+
+    /* CAREERS PART START  */
+    #Careers{
+        margin-top: 150px;
+        padding:20px 0;
+    }
+    #Careers .container{
+        gap: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+    #Careers .container .text h3{
+        font-size: 2.5rem;
+    }
+    #Careers .container .text p{
+        font-size: 1rem;
+    }
+    #Careers .container .text .list{
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    #Careers .container .text .list ul li{
+        font-size: 1rem;
+    }
+    #Careers .container .text button{
+        padding: 15px 30px;
+    }
+    /* CAREERS PART END */
+
     /* LOGO BUTTON PART START  */
     #logo{
         padding: 60px 0px;
@@ -870,6 +929,34 @@
     }
     /* PLAY PART END */
 
+    /* CAREERS PART START  */
+    #Careers{
+        margin-top: 100px;
+        padding-top: 20px;
+    }
+    #Careers .container{
+        gap: 30px;
+        flex-direction: column;
+        width: 100%;
+    }
+    #Careers .container .text h3{
+        font-size: 3rem;
+    }
+    #Careers .container .text p{
+        font-size: 1rem;
+    }
+    #Careers .container .text .list{
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    #Careers .container .text .list ul li{
+        font-size: 1rem;
+    }
+    #Careers .container .text button{
+        padding: 15px 30px;
+    }
+    /* CAREERS PART END */
+
     /* LOGO BUTTON PART START  */
     #logo{
         padding: 60px 0px;
@@ -1177,6 +1264,38 @@
     /* PLAY PART END */
 
 
+    /* CAREERS PART START  */
+    #Careers{
+        margin-top: 120px;
+        padding: 40px 0px;
+    }
+    #Careers .container{
+        gap: 30px;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    #Careers .container .text{
+        width: 650px;
+    }
+    #Careers .container .text h3{
+        font-size: 2.5rem;
+    }
+    #Careers .container .text p{
+        font-size: .7rem;
+    }
+    #Careers .container .text .list{
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    #Careers .container .text .list ul li{
+        font-size: .8rem;
+    }
+    #Careers .container .text button{
+        padding: 15px 30px;
+    }
+    /* CAREERS PART END */
+
+
     /* LOGO BUTTON PART START  */
     #logo{
         padding: 60px 0px;
@@ -1190,16 +1309,16 @@
     }
     #logo .container .logos .logo a{
         justify-content:center;
-        gap: 10px;
-        padding: 15px;
+        gap: 7px;
+        padding: 10px;
     }
     #logo .container .logos .logo a .icon{
         width: 40px;
         height: 40px;
     }
     #logo .container .logos .logo a p{
-        font-size: 1.5rem;
-        font-weight: 500;
+        font-size: 1.2rem;
+        font-weight: 400;
     }
     /* LOGO BUTTON PART END */
 
@@ -1475,6 +1594,33 @@
         width: 250px;
     }
     /* PLAY PART END */
+
+    /* CAREERS PART START  */
+    #Careers{
+        margin-top: 150px;
+        padding: 40px 0px;
+    }
+    #Careers .container{
+        gap: 30px;
+        width: 100%;
+    }
+    #Careers .container .text h3{
+        font-size: 3rem;
+    }
+    #Careers .container .text p{
+        font-size: 1.5rem;
+    }
+    #Careers .container .text .list{
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    #Careers .container .text .list ul li{
+        font-size: 1.2rem;
+    }
+    #Careers .container .text button{
+        padding: 15px 30px;
+    }
+    /* CAREERS PART END */
 
     /* LOGO BUTTON PART START  */
     #logo{
