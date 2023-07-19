@@ -255,6 +255,75 @@
     }
     /* LOGO BUTTON PART END */
 
+
+    /* FOOTER PART START  */
+    footer .container{
+        width: 100%;
+        padding: 40px 0 0;
+    }
+    footer .container .logo{
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    footer .container .logo img{
+        width: 60px;
+    }
+    footer .container .logo p{
+        font-size: 2rem;
+        color: var(--WHITE-COLOR);
+        font-weight: 700;
+    }
+    footer .container .logo p span{
+        color: var(--PRIMARY-COLOR);
+    
+    }
+
+    footer .container .f_nav{
+        margin: 0 auto 30px;
+        padding: 15px;
+    }
+    footer .container .f_nav ul{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    footer .container .f_nav ul li a{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    footer .container .f_nav2 ul li a{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+
+    footer .container .social_media{
+        margin: 0 auto 30px;
+        padding: 0 20px;
+    }
+    footer .container .social_media ul{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    footer .container .social_media ul li{
+        padding: 0 12px;
+    }
+    
+    footer .container .social_media ul li a i{
+        font-size: 2rem;
+    }
+    
+    footer .container .f_copy{
+        text-align: center;
+    }
+    /* FOOTER PART END */
+
 }
 /* ===========================================
         MOBILE DEVICE RESPONSIVE END 
@@ -511,6 +580,72 @@
     }
     /* LOGO BUTTON PART END */
 
+
+    /* FOOTER PART START  */
+    footer .container{
+        width: 100%;
+        padding: 40px 0 0;
+    }
+    footer .container .logo{
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    footer .container .logo img{
+        width: 60px;
+    }
+    footer .container .logo p{
+        font-size: 2rem;
+        color: var(--WHITE-COLOR);
+        font-weight: 700;
+    }
+    footer .container .logo p span{
+        color: var(--PRIMARY-COLOR);
+    
+    }
+
+    footer .container .f_nav{
+        margin: 0 auto 40px;
+        padding: 25px;
+    }
+    footer .container .f_nav ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer .container .f_nav ul li a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    footer .container .f_nav2 ul li a{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+
+    footer .container .social_media{
+        margin: 0 auto 30px;
+        padding: 0 20px;
+    }
+    footer .container .social_media ul{
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    footer .container .social_media ul li{
+        padding: 0 12px;
+    }
+    
+    footer .container .social_media ul li a i{
+        font-size: 2rem;
+    }
+    
+    footer .container .f_copy{
+        text-align: center;
+    }
+    /* FOOTER PART END */
+
+
 }
 /* ===========================================
         TABLET DEVICE RESPONSIVE END 
@@ -761,6 +896,67 @@
     }
     /* LOGO BUTTON PART END */
 
+    /* FOOTER PART START  */
+    footer .container{
+        width: 100%;
+        padding: 40px 0 0;
+    }
+    footer .container .logo{
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+    footer .container .logo img{
+        width: 60px;
+    }
+    footer .container .logo p{
+        font-size: 2rem;
+        color: var(--WHITE-COLOR);
+        font-weight: 700;
+    }
+    footer .container .logo p span{
+        color: var(--PRIMARY-COLOR);
+    
+    }
+
+    footer .container .f_nav{
+        margin: 0 auto 40px;
+        padding: 25px;
+    }
+    footer .container .f_nav ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    footer .container .f_nav ul li a{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    footer .container .f_nav2 ul li a{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+
+    footer .container .social_media{
+        margin: 0 auto 30px;
+        padding: 0 20px;
+    }
+    footer .container .social_media ul{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+    footer .container .social_media ul li a i{
+        font-size: 2rem;
+    }
+    
+    footer .container .f_copy{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* FOOTER PART END */
+
 }
 /* ===========================================
         MINI LAPTOP DEVICE RESPONSIVE END 
@@ -1007,6 +1203,65 @@
     }
     /* LOGO BUTTON PART END */
 
+
+        /* FOOTER PART START  */
+        footer .container{
+            width: 100%;
+            padding: 40px 0 0;
+        }
+        footer .container .logo{
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+        footer .container .logo img{
+            width: 60px;
+        }
+        footer .container .logo p{
+            font-size: 2rem;
+            color: var(--WHITE-COLOR);
+            font-weight: 700;
+        }
+        footer .container .logo p span{
+            color: var(--PRIMARY-COLOR);
+        
+        }
+    
+        footer .container .f_nav{
+            margin: 0 auto 40px;
+            padding: 25px;
+        }
+        footer .container .f_nav ul{
+            display: flex;
+        }
+        footer .container .f_nav ul li a{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        footer .container .f_nav2 ul li a{
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+        
+    
+        footer .container .social_media{
+            margin: 0 auto 30px;
+            padding: 0 20px;
+        }
+        footer .container .social_media ul{
+            display: flex;
+        }
+        
+        footer .container .social_media ul li a i{
+            font-size: 2rem;
+        }
+        
+        footer .container .f_copy{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* FOOTER PART END */
 }
 /* ===========================================
         MEDIUM LAPTOP DEVICE RESPONSIVE END 
@@ -1246,6 +1501,62 @@
         font-weight: 600;
     }
     /* LOGO BUTTON PART END */
+
+
+    /* FOOTER PART START  */
+    footer .container{
+        width: 100%;
+        padding: 60px 0 0;
+    }
+    footer .container .logo{
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    footer .container .logo img{
+        width: 70px;
+    }
+    footer .container .logo p{
+        font-size: 2.5rem;
+        color: var(--WHITE-COLOR);
+        font-weight: 700;
+    }
+
+    footer .container .f_nav{
+        margin: 0 auto 50px;
+        padding: 25px;
+    }
+    footer .container .f_nav ul{
+        display: flex;
+    }
+    footer .container .f_nav ul li a{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    footer .container .f_nav2 ul li a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+
+    footer .container .social_media{
+        margin: 0 auto 50px;
+        padding: 0 20px;
+    }
+    footer .container .social_media ul{
+        display: flex;
+    }
+    
+    footer .container .social_media ul li a i{
+        font-size: 2rem;
+    }
+    
+    footer .container .f_copy{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* FOOTER PART END */
 
 
 

@@ -572,68 +572,95 @@ padding: 0 10px;
 
 
 /* ========================================
-        ALL COMMON CSS PART START 
+        FOOTER CSS PART START 
 ======================================== */
+footer{
+    background-color: #0B0223;
+    text-align: center;
+    
+}
+footer .container{
+    padding: 0;
+    padding: 100px 0 0;
+}
+footer .container .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+footer .container .logo img{
+    width: 70px;
+}
+footer .container .logo p{
+    font-size: 3rem;
+    color: var(--WHITE-COLOR);
+    font-weight: 700;
+}
+footer .container .logo p span{
+    color: var(--PRIMARY-COLOR);
+
+}
+
+footer .container .f_nav{
+    margin: 0 auto 50px;
+}
+
+footer .container .f_nav ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .f_nav ul li a{
+    font-size: 1.5rem;
+    color: var(--WHITE-COLOR);
+    font-weight: 600;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+footer .container .f_nav2 ul li a{
+    font-size: 1.2rem;
+    color: var(--TEXT-COLOR);
+    font-weight: 500;
+}
+footer .container .f_nav ul li a:hover{
+    color: var(--PRIMARY-COLOR);
+}
+
+footer .container .social_media{
+    margin-bottom: 50px;
+}
+footer .container .social_media ul{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+footer .container .social_media ul li a i{
+    color: var(--WHITE-COLOR);
+    font-size: 3rem;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+footer .container .social_media ul li a:hover i{
+    color: var(--PRIMARY-COLOR);
+}
+
+footer .container .f_copy{
+    padding-bottom: 20px;
+}
 /* ========================================
-        ALL COMMON CSS PART END 
+        FOOTER CSS PART END 
 ======================================== */
 
 
 
 
-/* ========================================
-        ALL COMMON CSS PART START 
-======================================== */
-/* ========================================
-        ALL COMMON CSS PART END 
-======================================== */
-
-
-
-
-/* ========================================
-        ALL COMMON CSS PART START 
-======================================== */
-/* ========================================
-        ALL COMMON CSS PART END 
-======================================== */
-
-
-
-
-/* ========================================
-        ALL COMMON CSS PART START 
-======================================== */
-/* ========================================
-        ALL COMMON CSS PART END 
-======================================== */
-
-
-
-
-/* ========================================
-        ALL COMMON CSS PART START 
-======================================== */
-/* ========================================
-        ALL COMMON CSS PART END 
-======================================== */
-
-
-
-
-/* ========================================
-        ALL COMMON CSS PART START 
-======================================== */
-/* ========================================
-        ALL COMMON CSS PART END 
-======================================== */
-
-
-
-
-/* ========================================
-        ALL COMMON CSS PART START 
-======================================== */
-/* ========================================
-        ALL COMMON CSS PART END 
-======================================== */
