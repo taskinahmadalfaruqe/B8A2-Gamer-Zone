@@ -1489,16 +1489,16 @@
     }
     #logo .container .logos .logo a{
         justify-content:center;
-        gap: 15px;
-        padding: 25px;
+        gap: 7px;
+        padding: 10px;
     }
     #logo .container .logos .logo a .icon{
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     #logo .container .logos .logo a p{
-        font-size: 1.7rem;
-        font-weight: 600;
+        font-size: 1.5rem;
+        font-weight: 400;
     }
     /* LOGO BUTTON PART END */
 
