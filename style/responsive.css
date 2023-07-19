@@ -228,6 +228,33 @@
     }
     /* PLAY PART END */
 
+
+    /* LOGO BUTTON PART START  */
+    #logo{
+        padding: 40px 0px;
+    }
+    #logo .container{
+        width: 100%;
+        padding: 0;
+    }
+    #logo .container .logos{
+        justify-content: center;
+    }
+    #logo .container .logos .logo a{
+        justify-content:center;
+        gap: 2px;
+        padding: 3px;
+    }
+    #logo .container .logos .logo a .icon{
+        width: 15px;
+        height: 15px;
+    }
+    #logo .container .logos .logo a p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    /* LOGO BUTTON PART END */
+
 }
 /* ===========================================
         MOBILE DEVICE RESPONSIVE END 
@@ -458,6 +485,32 @@
     }
     /* PLAY PART END */
 
+    /* LOGO BUTTON PART START  */
+    #logo{
+        padding: 60px 0px;
+    }
+    #logo .container{
+        width: 100%;
+        padding: 0;
+    }
+    #logo .container .logos{
+        justify-content: center;
+    }
+    #logo .container .logos .logo a{
+        justify-content:center;
+        gap: 10px;
+        padding: 10px;
+    }
+    #logo .container .logos .logo a .icon{
+        width: 25px;
+        height: 25px;
+    }
+    #logo .container .logos .logo a p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* LOGO BUTTON PART END */
+
 }
 /* ===========================================
         TABLET DEVICE RESPONSIVE END 
@@ -682,6 +735,32 @@
     }
     /* PLAY PART END */
 
+    /* LOGO BUTTON PART START  */
+    #logo{
+        padding: 60px 0px;
+    }
+    #logo .container{
+        width: 100%;
+        padding: 0;
+    }
+    #logo .container .logos{
+        justify-content: center;
+    }
+    #logo .container .logos .logo a{
+        justify-content:center;
+        gap: 10px;
+        padding: 10px;
+    }
+    #logo .container .logos .logo a .icon{
+        width: 35px;
+        height: 35px;
+    }
+    #logo .container .logos .logo a p{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    /* LOGO BUTTON PART END */
+
 }
 /* ===========================================
         MINI LAPTOP DEVICE RESPONSIVE END 
@@ -901,6 +980,33 @@
     }
     /* PLAY PART END */
 
+
+    /* LOGO BUTTON PART START  */
+    #logo{
+        padding: 60px 0px;
+    }
+    #logo .container{
+        width: 100%;
+        padding: 0;
+    }
+    #logo .container .logos{
+        justify-content: center;
+    }
+    #logo .container .logos .logo a{
+        justify-content:center;
+        gap: 10px;
+        padding: 15px;
+    }
+    #logo .container .logos .logo a .icon{
+        width: 40px;
+        height: 40px;
+    }
+    #logo .container .logos .logo a p{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    /* LOGO BUTTON PART END */
+
 }
 /* ===========================================
         MEDIUM LAPTOP DEVICE RESPONSIVE END 
@@ -1114,6 +1220,33 @@
         width: 250px;
     }
     /* PLAY PART END */
+
+    /* LOGO BUTTON PART START  */
+    #logo{
+        padding: 80px 0px;
+    }
+    #logo .container{
+        width: 100%;
+        padding: 0;
+    }
+    #logo .container .logos{
+        justify-content: center;
+    }
+    #logo .container .logos .logo a{
+        justify-content:center;
+        gap: 15px;
+        padding: 25px;
+    }
+    #logo .container .logos .logo a .icon{
+        width: 50px;
+        height: 50px;
+    }
+    #logo .container .logos .logo a p{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    /* LOGO BUTTON PART END */
+
 
 
 }

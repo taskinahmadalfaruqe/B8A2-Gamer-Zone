@@ -30,7 +30,7 @@ img{
     width: 1640px;
     margin: 0 auto;
     padding: 0px 10px;
-    background: rgba(255, 0, 0, 0.5);
+    /* background: rgba(255, 0, 0, 0.5); */
 }
 ul, ol, li{
     list-style: none;
@@ -89,6 +89,9 @@ p{
     color: var(--TEXT-COLOR);
     font-size: 1.2rem;
     line-height: 30px;
+}
+.hidden{
+    display: none;
 }
 /* COMMON BUTTON PART START */
 
@@ -493,10 +496,66 @@ padding: 0 10px;
 
 
 /* ========================================
-        ALL COMMON CSS PART START 
+        LOGO BUTTON CSS PART START 
 ======================================== */
+#logo{
+    padding: 120px 0px;
+}
+#logo .container .logos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+#logo .container .logos .logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--WHITE-COLOR);
+    gap: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#logo .container .logos .logo:hover a{
+    border: 1px solid var(--PRIMARY-COLOR);
+}
+#logo .container .logos .logo a .icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo .container .logos .logo a p{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--HEADING-BLACK);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+#logo .container .logos .logo:hover a p{
+    color: var(--PRIMARY-COLOR);
+}
 /* ========================================
-        ALL COMMON CSS PART END 
+        LOGO BUTTON CSS PART END 
 ======================================== */
 
 
