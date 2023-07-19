@@ -30,7 +30,7 @@ img{
     width: 1640px;
     margin: 0 auto;
     padding: 0px 10px;
-    /* background: red; */
+    background: rgba(255, 0, 0, 0.5);
 }
 ul, ol, li{
     list-style: none;
@@ -453,6 +453,41 @@ padding: 0 10px;
 /* ========================================
          INSTANTLY CSS PART END 
 ======================================== */
+
+
+
+
+
+/* ========================================
+         INSTANTLY CSS PART START 
+======================================== */
+#play{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+#play .container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+#play .container .text{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+#play .container .image{
+    position: relative;
+}
+#play .container .image .position{
+    position: absolute;
+    right: -20%;
+    top: 60%;
+}
+/* ========================================
+         INSTANTLY CSS PART END 
+======================================== */
+
 
 
 
