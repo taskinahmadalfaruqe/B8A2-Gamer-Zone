@@ -335,16 +335,13 @@
         padding: 0 20px;
     }
     footer .container .social_media ul{
-        display: flex;
-        gap: 50px;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+        display: none;
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
     }
     footer .container .social_media ul li{
         padding: 0 12px;
     }
-    
     footer .container .social_media ul li a i{
         font-size: 2rem;
     }
